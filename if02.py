@@ -9,14 +9,11 @@ def main(a,b,c):
         int: return answer.
     """
     answer=''
-    if a<b:
-        if a<c:
-            answer= a
-        if c< a:
-            answer= c
-    if b<c :
-        answer= b 
-    else :
-        answer=c       
+    if a<b and a<c:
+        answer= a
+    if b < a and b<c:
+        answer= b
+    if c<a and c<b :
+        answer= c      
     return answer
 print(main(5,3,1))    

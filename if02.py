@@ -14,7 +14,9 @@ def main(a,b,c):
             answer= a
         if c< a:
             answer= c
-    else:
-        answer= b        
+    if b<c :
+        answer= b 
+    else :
+        answer=c       
     return answer
-print(main(1,8,5))    
+print(main(5,3,1))    

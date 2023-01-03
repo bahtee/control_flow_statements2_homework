@@ -12,9 +12,9 @@ def main(a,b,c):
     if a<b:
         if a<c:
             answer= a
-        else:
+        if c< a:
             answer= c
     else:
         answer= b        
     return answer
-print(main(7,8,5))    
+print(main(1,8,5))    

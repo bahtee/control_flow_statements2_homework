@@ -7,4 +7,13 @@ def main(a,b):
     Returns:
         int: return answer.
     """
-    return
+    ans='xato'
+    if a == b :
+        ans=0
+    if a > b :
+        ans= a
+    if a < b :
+        ans= b
+
+    return ans
+print(main(4,4))
